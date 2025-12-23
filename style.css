@@ -1,0 +1,118 @@
+.nav{
+    height: 3.5rem;
+    display: flex;
+    justify-content:space-between ;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+
+}
+.nav a{
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    color: black;
+    text-decoration: none;
+
+}
+
+.navitem{
+    font-size: 1.5rem;
+    width: 30%;
+    font-size: 400;
+
+}
+.nav button{
+    background-color: rgb(90, 15, 15);
+    color: white;
+    border-radius: 5px;
+}
+
+.hero{
+    height: 35vh;
+    background-color: rgb(107, 51, 51);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+
+}
+.hero button{
+    background-color: rgb(228, 40, 40);
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardgrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.box{
+    width: 350px;
+    background-color: rgb(185, 145, 145);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 2rem;
+    border-radius: 20px;
+    gap: 10px;
+    color: azure;
+     font-family: "Grechen Fuemen", cursive;
+}
+.box img{
+    width: 350px;
+    border-radius: 10px;
+    margin-top: -40px;
+}
+.CARD{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.author{
+    text-align: right;
+}
+.FOOTER{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0px;
+     background-color: #D9D9D9;
+}
+footer{
+    background-color: #3F1919;
+    color: white;
+}
+.footer-row{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    background-color: #c6c1c1;
+    padding: 86px 0px;
+}
+.footer-row div{
+    width: 200px;
+}
+.copy{
+    background-color: #E26464;
+    margin: auto;
+    margin-top:0px ;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+
